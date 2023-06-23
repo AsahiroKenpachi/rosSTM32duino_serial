@@ -16,7 +16,7 @@ rosrun rosserial\_arduino make\_libraries.py .
 - And change the line 62 to<br>
 #define SERIAL\_CLASS USBSerial
 - Similarly change line 75 of the same header file to<br>
-#define SERIAL\_CLASS USBSerial
+iostream = &SerialUSB;
 - Now compile and upload the code to stm32 
 - And go to the terminal and type the command<br>
 rosrun rosserial\_arduino serial\_node.py /dev/ttyACM0
