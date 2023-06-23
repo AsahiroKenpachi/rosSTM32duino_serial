@@ -5,9 +5,9 @@ The following procedure is with respect to platformio. The procedure is similar 
 To use STM32 Boards(by using USB and stlink) with conventional rosserial as you do with Arduino:
 
 - Change your current directory of the Terminal to the library folder of the project
-- Run the following commands
+- Run the following commands<br>
 
-rm -rf ros\_lib
+  rm -rf ros\_lib
 
 rosrun rosserial\_arduino make\_libraries.py .
 
